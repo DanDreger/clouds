@@ -1,6 +1,7 @@
 * {
 	margin: 			0;
 	padding: 			0;
+	font-family: 'Coiny', sans-serif;
 }
 
 video {
@@ -12,13 +13,13 @@ video {
 	position: 			absolute;
 	top: 				0px;
 	right: 				20px;
-	color: 				white;
 	font-size: 			100%;
 	width: 				50%;
 	text-align: 		center;
-	border-bottom: 		7px solid white;
-	border-left:		3px solid white;
-	border-radius: 		5px;
+	background: 		rgba(99,135,170,.75);
+	border: 			1px solid white;
+	border-bottom-left-radius:	15px;
+	border-bottom-right-radius:	15px;
 }
 
 nav li {
@@ -26,65 +27,84 @@ nav li {
 	padding: 			4%;
 }
 
+a:link {
+	color: 				white;
+	text-decoration: 	none;
+}
+
+a:visited {
+	text-decoration: 	none;
+	color: 				lightgrey;
+
+}
+
+a:hover {
+	background: 		rgba(255,255,255,.75);		
+	color: 				rgb(99,135,170);
+	text-decoration: 	none; 
+}
+
 .logo	{
 	position: 			absolute;
 	top: 				0px;
-	left: 				20px;
-	color: 				#48759c;
+	left: 				50px;
+	color: 				white;
 	border:				3px solid white;
 	padding: 			7px;
 	border-radius: 		33px;
+	background: 		rgba(99,135,170,.75);
 }
 
 .text {
-	position: 			absolute;
-	width: 				30%;
-	top: 				20%;
-	right: 				12.5%;
     display:			block;
-    margin: 			10% 10% 10% 50%;
-    border-left: 		7px solid white;
+    margin: 			20% 10% 10% 48%;
     padding-left:  		0px;
     line-height: 		1.5;
-	border: 		 	3px solid white;
-	border-radius: 		5px;
-	outline: 			1px solid white;
+    background-color: 	rgba(99,135,170,.55);
+	border-bottom-left-radius:	15px;
+	border-bottom-right-radius:	15px;
+	border: 			1px solid white;	
+}
+
+.wordbackground {
+
 }
 
 .text p {
 	padding-left: 		10px;
 	letter-spacing: 	.1em;
 	color: 				white;
+	opacity: 			none;
+	font-family: 		'Francois One', sans-serif;
+	font-weight: 		bold;
 }
 
-h1 {
-	background-color: 	white;
-	opacity: 			.5;
-	color: 				#48759c;
+.text h1 {
+	background: 		rgba(255,255,255,.75);
+	color: 				rgb(99,135,170);
 }
+
 
 .button {
 	float:				left;
-	border-radius: 		5px;
-	margin-top: 		200px;
+	border-radius: 		15px;
+	margin-top: 		20%;
 	margin-left: 		20%;
 	color: 				white;
-}
+	text-align: 		center;
+	background: 		rgba(99,135,170,.75);
+	padding: 			1%;
+	border: 			1px solid white;
+}	
 
-}
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
 	.navigation {
-	position: 			relative;
-	top: 				none;
-	left: 				0;
-	color: 				white;
-	font-size: 			100%;
-	width: 				100%;
-	text-align: 		left;
-	border-bottom: 		7px solid white;
-	border-left:		3px solid white;
-	border-radius: 		5px;
-}
+		position: absolute;
+		left: 0;
+		top:	75px;
+		width: 	100%;
+	}
+
 }
 

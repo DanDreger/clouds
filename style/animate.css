@@ -1,20 +1,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @charset "UTF-8";
 
 /*!
@@ -1288,6 +1274,7 @@
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+  animation-duration:  5s;
 }
 
 @-webkit-keyframes fadeInDownBig {
@@ -1354,13 +1341,15 @@
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
+  animation-duration: 15s;
+  animation-delay: -7s;
 }
 
 @-webkit-keyframes fadeInLeftBig {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(-2000px, 0, 0);
-    transform: translate3d(-2000px, 0, 0);
+    -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
   }
 
   to {
