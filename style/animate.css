@@ -3345,3 +3345,9 @@
   animation-name: slideOutUp;
 }
 
+
+@media (max-width: 650px) {
+.fadeInLeft {
+  animation: none;
+}
+}
